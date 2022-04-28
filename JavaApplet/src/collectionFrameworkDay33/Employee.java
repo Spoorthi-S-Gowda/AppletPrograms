@@ -39,11 +39,6 @@ public class Employee
 		this.salary = salary;
 	}
 	@Override
-	public boolean equals(Object o)
-	{
-		return true;
-	}
-	@Override
 	public String toString() 
 	{
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
